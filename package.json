@@ -1,0 +1,33 @@
+{
+  "name": "stalker_scripts",
+  "version": "1.0.0",
+  "description": "these scripts aims to check status, new friends, likes, followers, photos whatever you do when you #Stalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4fath/Stalker-Scripts.git"
+  },
+  "keywords": [
+    "nodejs",
+    "fb",
+    "twitter"
+  ],
+  "author": "4fath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4fath/Stalker-Scripts/issues"
+  },
+  "homepage": "https://github.com/4fath/Stalker-Scripts#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "cron": "^1.1.0",
+    "dotenv": "^2.0.0",
+    "fs": "0.0.2",
+    "mongoose": "^4.4.19",
+    "nodemailer": "^0.7.1",
+    "request": "^2.72.0"
+  }
+}
